@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./printStyles.css">
+    <title>Document</title>
+    <style>
+
+.receipt-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 18px;
+  font-family: 'Courier Prime', monospace;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1.5em 0 0.5em 0;
+}
+
+.text {
+  font-family: 'Courier Prime', monospace;
+  font-weight: 400;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+}
+
+.m-b {
+  margin-bottom: 35px;
+}
+
+.p-b {
+  padding-bottom: 2em;
+}
+
+.qr-code {
+  margin: 0 auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sign {
+  margin-top: 1.5em;
+}
+
+.address {
+  font-family: 'Courier Prime', monospace;
+  font-weight: 400;
+  font-size: 18px;
+  word-wrap: break-word;
+}
+
+.white-text {
+  color: white;
+  font-size: 28px;
+  padding: 0.5em 0;
+}
+
+    </style>
+  </head>
+  
+  <body>
+    <div id="cryptocurrency-purchase-order">
+      <div class="receipt-container">
+        <h1 class="title">Zlecenie zakupu kryptowaluty przez klienta</h1>
+        <div class="m-b">
+          <p class="text">Kod transakcji: RXGN7</p>
+          <p class="text">Data: 24.10.2023 14:34</p>
+        </div>
+        <div class="m-b">
+          <p class="text">Wartość:</p>
+          <p class="text">5.087024 USDT / 33 PLN</p>
+          <p class="text">Kurs wymiany:</p>
+          <p class="text">4.352249 PLN / USDT</p>
+        </div>
+        <p class="text m-b">Opłata za przelew: 10.86 PLN</p>
+        <div class="m-b">
+          <p class="text">Blockchain: TRON</p>
+          <p class="text">Adres odbiorcy:</p>
+          <p class="address">TBiKok1Y8skztWx1wntczb7ph2E19V2CuD</p>
+        </div>
+        <div class="m-b">
+          <p class="text">Niniejszym potwierdzam, że</p>
+          <ul class="list">
+            <li class="text">
+              - zapoznałem się z regulaminem kantoru i akceptuję go w pełni
+            </li>
+            <li class="text">
+              - akceptuję warunki transakcji (kurs wymiany, opłaty dodatkowe)
+            </li>
+            <li class="text">
+              - podany wyżej blockchain oraz adres portfela odbiorcy są
+              prawidłowe
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p class="sign">______________________________________</p>
+          <p class="text">podpis klienta</p>
+        </div>
+        <p class="white-text">|</p>
+      </div>
+    </div>
+  </body>
+</html>
